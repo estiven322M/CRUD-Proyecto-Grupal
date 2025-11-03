@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_02BTILhdEfCb2YyoA-WB7w" name="eliminarReserva">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_0-bBMLhdEfCb2YyoA-WB7w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_09o-ELhdEfCb2YyoA-WB7w" name="eliminarReserva">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_2hfWcLhdEfCb2YyoA-WB7w" name=":FormularioCrudReserva" coveredBy="_CDLQ8LheEfCb2YyoA-WB7w _CD0KILheEfCb2YyoA-WB7w"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_5S9YgLhdEfCb2YyoA-WB7w" name=":GestionReservasViewModel" coveredBy="_CDNtMLheEfCb2YyoA-WB7w _HSRMALheEfCb2YyoA-WB7w _CDzjELheEfCb2YyoA-WB7w _HS9vkLheEfCb2YyoA-WB7w _CDuDgLheEfCb2YyoA-WB7w"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_9MMT4LhdEfCb2YyoA-WB7w" name=":Reserva" coveredBy="_HSTBMLheEfCb2YyoA-WB7w _HS9IgLheEfCb2YyoA-WB7w _HS4QALheEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CDLQ8LheEfCb2YyoA-WB7w" name="Message4SendEvent" covered="_2hfWcLhdEfCb2YyoA-WB7w" message="_CDI0sLheEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CDNtMLheEfCb2YyoA-WB7w" name="Message4ReceiveEvent" covered="_5S9YgLhdEfCb2YyoA-WB7w" message="_CDI0sLheEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_CDuDgLheEfCb2YyoA-WB7w" name="BehaviorExecutionSpecification7" covered="_5S9YgLhdEfCb2YyoA-WB7w" finish="_CDzjELheEfCb2YyoA-WB7w" start="_CDNtMLheEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HSRMALheEfCb2YyoA-WB7w" name="Message11SendEvent" covered="_5S9YgLhdEfCb2YyoA-WB7w" message="_HSOIsLheEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HSTBMLheEfCb2YyoA-WB7w" name="Message11ReceiveEvent" covered="_9MMT4LhdEfCb2YyoA-WB7w" message="_HSOIsLheEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HS4QALheEfCb2YyoA-WB7w" name="BehaviorExecutionSpecification14" covered="_9MMT4LhdEfCb2YyoA-WB7w" finish="_HS9IgLheEfCb2YyoA-WB7w" start="_HSTBMLheEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CDzjELheEfCb2YyoA-WB7w" name="Message9SendEvent" covered="_5S9YgLhdEfCb2YyoA-WB7w" message="_CDyU8LheEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CD0KILheEfCb2YyoA-WB7w" name="Message9ReceiveEvent" covered="_2hfWcLhdEfCb2YyoA-WB7w" message="_CDyU8LheEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HS9IgLheEfCb2YyoA-WB7w" name="Message16SendEvent" covered="_9MMT4LhdEfCb2YyoA-WB7w" message="_HS8hcLheEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HS9vkLheEfCb2YyoA-WB7w" name="Message16ReceiveEvent" covered="_5S9YgLhdEfCb2YyoA-WB7w" message="_HS8hcLheEfCb2YyoA-WB7w"/>
+    <message xmi:type="uml:Message" xmi:id="_CDI0sLheEfCb2YyoA-WB7w" name="1: eliminarReserva(id)" receiveEvent="_CDNtMLheEfCb2YyoA-WB7w" sendEvent="_CDLQ8LheEfCb2YyoA-WB7w"/>
+    <message xmi:type="uml:Message" xmi:id="_CDyU8LheEfCb2YyoA-WB7w" name="" messageSort="reply" receiveEvent="_CD0KILheEfCb2YyoA-WB7w" sendEvent="_CDzjELheEfCb2YyoA-WB7w"/>
+    <message xmi:type="uml:Message" xmi:id="_HSOIsLheEfCb2YyoA-WB7w" name="2: removeIf (id)" receiveEvent="_HSTBMLheEfCb2YyoA-WB7w" sendEvent="_HSRMALheEfCb2YyoA-WB7w"/>
+    <message xmi:type="uml:Message" xmi:id="_HS8hcLheEfCb2YyoA-WB7w" name="" messageSort="reply" receiveEvent="_HS9vkLheEfCb2YyoA-WB7w" sendEvent="_HS9IgLheEfCb2YyoA-WB7w"/>
+  </packagedElement>
+</uml:Model>

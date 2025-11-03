@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_B8JVgLhWEfCb2YyoA-WB7w" name="DiagramaSecuencia">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_CGdvILhWEfCb2YyoA-WB7w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_CD0q0LhWEfCb2YyoA-WB7w" name="Interaction1">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_mJ46ELhWEfCb2YyoA-WB7w" name=":FormularioCrudReserva" coveredBy="_iKsrMLhXEfCb2YyoA-WB7w _iKsEILhXEfCb2YyoA-WB7w _iKsrMbhXEfCb2YyoA-WB7w"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_t0WrYLhWEfCb2YyoA-WB7w" name=":GestionReservasViewModel"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_wcpjULhWEfCb2YyoA-WB7w" name=":Reserva"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_iKsrMLhXEfCb2YyoA-WB7w" name="ActionExecutionSpecification4Start" covered="_mJ46ELhWEfCb2YyoA-WB7w" execution="_iKsEILhXEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_iKsEILhXEfCb2YyoA-WB7w" name="constructor ()" covered="_mJ46ELhWEfCb2YyoA-WB7w" finish="_iKsrMbhXEfCb2YyoA-WB7w" start="_iKsrMLhXEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_iKsrMbhXEfCb2YyoA-WB7w" name="ActionExecutionSpecification4Finish" covered="_mJ46ELhWEfCb2YyoA-WB7w" execution="_iKsEILhXEfCb2YyoA-WB7w"/>
+  </packagedElement>
+</uml:Model>

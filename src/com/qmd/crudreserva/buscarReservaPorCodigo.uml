@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_vEfHcLhfEfCb2YyoA-WB7w" name="buscarReservaPorCodigo">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_vMPVQLhfEfCb2YyoA-WB7w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_vLo4ULhfEfCb2YyoA-WB7w" name="buscarReservaPorCodigo ()">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_xPdKMLhfEfCb2YyoA-WB7w" name=":FormularioCrudReserva" coveredBy="__0ncwLhfEfCb2YyoA-WB7w __0oD0LhfEfCb2YyoA-WB7w _HP_pMLhgEfCb2YyoA-WB7w _HQv3ILhgEfCb2YyoA-WB7w _Ya4n4LhgEfCb2YyoA-WB7w _Ya2ysLhgEfCb2YyoA-WB7w _a06aULhgEfCb2YyoA-WB7w _a082kLhgEfCb2YyoA-WB7w _Ya5O8LhgEfCb2YyoA-WB7w _-XZ34LhfEfCb2YyoA-WB7w"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_zL4aoLhfEfCb2YyoA-WB7w" name=":GestionReservasViewModel" coveredBy="_HQBeYLhgEfCb2YyoA-WB7w _M0KcYLhgEfCb2YyoA-WB7w _HQupALhgEfCb2YyoA-WB7w _M09GkLhgEfCb2YyoA-WB7w _HQoiYLhgEfCb2YyoA-WB7w"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_1xjcYLhfEfCb2YyoA-WB7w" name=":Reserva" coveredBy="_M0MRkLhgEfCb2YyoA-WB7w _M074cLhgEfCb2YyoA-WB7w _M01KwLhgEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__0ncwLhfEfCb2YyoA-WB7w" name="Message7SendEvent" covered="_xPdKMLhfEfCb2YyoA-WB7w" message="__0mOoLhfEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_-XZ34LhfEfCb2YyoA-WB7w" name="ActionExecutionSpecification4" covered="_xPdKMLhfEfCb2YyoA-WB7w" finish="_HP_pMLhgEfCb2YyoA-WB7w" start="__0ncwLhfEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__0oD0LhfEfCb2YyoA-WB7w" name="Message7ReceiveEvent" covered="_xPdKMLhfEfCb2YyoA-WB7w" message="__0mOoLhfEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HP_pMLhgEfCb2YyoA-WB7w" name="Message9SendEvent" covered="_xPdKMLhfEfCb2YyoA-WB7w" message="_HP8l4LhgEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HQBeYLhgEfCb2YyoA-WB7w" name="Message9ReceiveEvent" covered="_zL4aoLhfEfCb2YyoA-WB7w" message="_HP8l4LhgEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_HQoiYLhgEfCb2YyoA-WB7w" name="BehaviorExecutionSpecification11" covered="_zL4aoLhfEfCb2YyoA-WB7w" finish="_HQupALhgEfCb2YyoA-WB7w" start="_HQBeYLhgEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_M0KcYLhgEfCb2YyoA-WB7w" name="Message15SendEvent" covered="_zL4aoLhfEfCb2YyoA-WB7w" message="_M0GK8LhgEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_M0MRkLhgEfCb2YyoA-WB7w" name="Message15ReceiveEvent" covered="_1xjcYLhfEfCb2YyoA-WB7w" message="_M0GK8LhgEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_M01KwLhgEfCb2YyoA-WB7w" name="BehaviorExecutionSpecification18" covered="_1xjcYLhfEfCb2YyoA-WB7w" finish="_M074cLhgEfCb2YyoA-WB7w" start="_M0MRkLhgEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HQupALhgEfCb2YyoA-WB7w" name="Message13SendEvent" covered="_zL4aoLhfEfCb2YyoA-WB7w" message="_HQta4LhgEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HQv3ILhgEfCb2YyoA-WB7w" name="Message13ReceiveEvent" covered="_xPdKMLhfEfCb2YyoA-WB7w" message="_HQta4LhgEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Ya4n4LhgEfCb2YyoA-WB7w" name="ActionExecutionSpecification22Start" covered="_xPdKMLhfEfCb2YyoA-WB7w" execution="_Ya2ysLhgEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_Ya2ysLhgEfCb2YyoA-WB7w" name="ActionExecutionSpecification22" covered="_xPdKMLhfEfCb2YyoA-WB7w" finish="_Ya5O8LhgEfCb2YyoA-WB7w" start="_Ya4n4LhgEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_a06aULhgEfCb2YyoA-WB7w" name="Message25SendEvent" covered="_xPdKMLhfEfCb2YyoA-WB7w" message="_a02I4LhgEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_M074cLhgEfCb2YyoA-WB7w" name="Message20SendEvent" covered="_1xjcYLhfEfCb2YyoA-WB7w" message="_M06qULhgEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_M09GkLhgEfCb2YyoA-WB7w" name="Message20ReceiveEvent" covered="_zL4aoLhfEfCb2YyoA-WB7w" message="_M06qULhgEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_a082kLhgEfCb2YyoA-WB7w" name="Message25ReceiveEvent" covered="_xPdKMLhfEfCb2YyoA-WB7w" message="_a02I4LhgEfCb2YyoA-WB7w"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Ya5O8LhgEfCb2YyoA-WB7w" name="ActionExecutionSpecification22Finish" covered="_xPdKMLhfEfCb2YyoA-WB7w" execution="_Ya2ysLhgEfCb2YyoA-WB7w"/>
+    <message xmi:type="uml:Message" xmi:id="__0mOoLhfEfCb2YyoA-WB7w" name="1: onBtnBuscarClick ()" receiveEvent="__0oD0LhfEfCb2YyoA-WB7w" sendEvent="__0ncwLhfEfCb2YyoA-WB7w"/>
+    <message xmi:type="uml:Message" xmi:id="_HP8l4LhgEfCb2YyoA-WB7w" name="2: buscarPorCodigo (codigo)" receiveEvent="_HQBeYLhgEfCb2YyoA-WB7w" sendEvent="_HP_pMLhgEfCb2YyoA-WB7w"/>
+    <message xmi:type="uml:Message" xmi:id="_HQta4LhgEfCb2YyoA-WB7w" name="5: return (List&lt;Reserva>)" messageSort="reply" receiveEvent="_HQv3ILhgEfCb2YyoA-WB7w" sendEvent="_HQupALhgEfCb2YyoA-WB7w"/>
+    <message xmi:type="uml:Message" xmi:id="_M0GK8LhgEfCb2YyoA-WB7w" name="3: filter (codigo)" receiveEvent="_M0MRkLhgEfCb2YyoA-WB7w" sendEvent="_M0KcYLhgEfCb2YyoA-WB7w"/>
+    <message xmi:type="uml:Message" xmi:id="_M06qULhgEfCb2YyoA-WB7w" name="4: return (List&lt;Reserva>)" messageSort="reply" receiveEvent="_M09GkLhgEfCb2YyoA-WB7w" sendEvent="_M074cLhgEfCb2YyoA-WB7w"/>
+    <message xmi:type="uml:Message" xmi:id="_a02I4LhgEfCb2YyoA-WB7w" name="6: actualizarTablaConResultados ()" receiveEvent="_a082kLhgEfCb2YyoA-WB7w" sendEvent="_a06aULhgEfCb2YyoA-WB7w"/>
+  </packagedElement>
+</uml:Model>
